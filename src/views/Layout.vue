@@ -1,30 +1,29 @@
-
 <template>
-<div>
-<b-row>
-<b-col md="2" >
-<Sidebar/>
+    <div>
+        <b-row>
+            <b-col md="2">
+                <Sidebar />
 
-</b-col>
-<b-col md="10" >
-<slot>
+            </b-col>
+            <b-col md="10">
+                <slot>
 
-</slot>
-</b-col>
-</b-row>
+                </slot>
+            </b-col>
+        </b-row>
 
 
-</div>
+    </div>
 
 
 </template>
 
 <script>
-import Sidebar from "@/views/auth/Sidebar.vue"
-export default {
-    name:'layout',
-    components: {
-        Sidebar,
+    import Sidebar from "@/views/auth/Sidebar.vue"
+    export default {
+        name: 'layout',
+        components: {
+            Sidebar,
+        }
     }
-}
 </script>
