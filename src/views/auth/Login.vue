@@ -1,22 +1,16 @@
 <template>
   <div>
     <b-form @reset="onReset" v-if="show">
-
-
       <b-form-group id="input-group-2" label="User Name:" label-for="input-2">
         <b-form-input id="input-2" v-model="form.name" required placeholder="Masukin Nama dong"></b-form-input>
       </b-form-group>
-
       <b-form-group id="input-group-2" label="Password :" label-for="input-2">
         <b-form-input type="password" id="input-2" v-model="form.password" required placeholder=" Masukin paswrod dong">
         </b-form-input>
       </b-form-group>
-
-
       <b-button @click="onSubmit" variant="primary">Submit</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
     </b-form>
-
   </div>
 </template>
 

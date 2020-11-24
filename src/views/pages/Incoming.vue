@@ -11,7 +11,6 @@
                     <th rowspan="2">Due Date</th>
                     <th rowspan="2">Status</th>
                 </tr>
-
                 <tbody>
                     <tr>
                         <td>1</td>
@@ -47,8 +46,6 @@
                             <b-row><label for="input">Reviewer:</label></b-row>
                             <b-row><label for="input">Departement:</label></b-row>
                             <b-row><label for="input">ID Reviewer:</label></b-row>
-
-
                         </b-col>
                         <b-col sm="8">
                             <b-form-input id="input" size="sm" placeholder="Masukkan Nomor"></b-form-input>
@@ -87,13 +84,9 @@
 
                     </b-row>
                 <div class="text-right">
-                   
                     <b-button>edit</b-button>
                     <b-button>Delete</b-button>
-            
                 </div>
-
-
             </b-modal>
         </div>
     </Layout>
