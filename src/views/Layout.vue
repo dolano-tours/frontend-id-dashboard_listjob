@@ -25,9 +25,6 @@ export default {
   background-image: url("E:/dashboard/src/assets/ewa1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
-  
-
 }
 </style>
 
