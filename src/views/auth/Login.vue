@@ -6,15 +6,15 @@
     <div class="col-3">
       <div class="mt-3">
         <b-form @reset="onReset" id="form" v-if="show">
-          <b-form-group id="input-group-2" class="text-left un" label="Username :" label-for="input-2">
+          <b-form-group id="input-group-2" class="text-left un" label="Username" label-for="input-2">
             <b-form-input id="input-2" v-model="form.name" required placeholder="Username here"></b-form-input>
           </b-form-group>
-          <b-form-group id="input-group-2" class="text-left ps" label="Password :" label-for="input-2">
+          <b-form-group id="input-group-2" class="text-left ps" label="Password" label-for="input-2">
             <b-form-input type="password" id="input-2" v-model="form.password" required placeholder="Sure password here">
             </b-form-input>
           </b-form-group>
-            <b-button id="login-btn" @click="onSubmit" variant="primary">Submit</b-button>
-            <b-button class="ml-5" id="reset-btn" type="reset" variant="danger">Reset</b-button>
+            <b-button id="login-btn" @click="onSubmit" variant="primary"><b>Login</b></b-button>
+            <b-button class="ml-5" id="reset-btn" type="reset" variant="danger"><b>Reset</b></b-button>
         </b-form>
       </div>
     </div>
@@ -59,6 +59,10 @@
 </script>
 
 <style scoped>
+#input-group-2 {
+  font-size: 20px;
+  font-weight: bold;
+}
 #form {
   padding: 2em;
 }
