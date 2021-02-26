@@ -23,13 +23,13 @@
             </router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" href="#">
+            <router-link class="nav-link" to="#">
                 <i class="fas fa-question"></i>
                 FAQ
             </router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" href="#">
+            <router-link class="nav-link" to="#">
                 <i class="fas fa-paper-plane"></i>
                 CONTACT
             </router-link>
